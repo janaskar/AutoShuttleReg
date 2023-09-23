@@ -20,11 +20,8 @@ with requests.Session() as s:
 
     login_data = {
         'ctl00_ToolkitScriptManager1_HiddenField': '',
-        '__EVENTTARGET': '',
-        '__EVENTARGUMENT': '',
         '__VIEWSTATE': view_state,
         '__VIEWSTATEGENERATOR': view_state_generator,
-        'ctl00$PopupPanelLoginForm$State': '1612px,35px',
         'ctl00$TextBoxLoginEmail': username,
         'ctl00$TextBoxLoginPassword': password,
         'ctl00$ButtonLogin': 'Logg inn'
