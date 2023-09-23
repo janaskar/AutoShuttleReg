@@ -31,6 +31,6 @@ with requests.Session() as s:
     soup = BeautifulSoup(r.content, 'html.parser')
 
 if "Logg ut" in soup.text:
-    print("Login successful!")
+    print("Login successful.")
 else:
     print("Login failed.")
